@@ -1,17 +1,16 @@
-# Grading-system-
-# grading_system.py
+# Grading System
 
-score = int(input("Enter your score (0–100): "))
+This is a simple Python program that takes a student's score (0–100) and returns the corresponding grade based on a standard school grading scale.
 
-if score >= 70:
-    print("Grade: A")
-elif score >= 60:
-    print("Grade: B")
-elif score >= 50:
-    print("Grade: C")
-elif score >= 45:
-    print("Grade: D")
-elif score >= 40:
-    print("Grade: E")
-else:
-    print("Grade: F")
+## Grading Scale:
+- 70–100 → A
+- 60–69 → B
+- 50–59 → C
+- 45–49 → D
+- 40–44 → E
+- 0–39  → F
+
+## How to Use
+1. Run the program using Python 3:
+   ```bash
+   python grading_system.py
